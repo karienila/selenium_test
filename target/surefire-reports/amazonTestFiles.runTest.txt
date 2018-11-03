@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: amazonTestFiles.runTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 31.211 sec <<< FAILURE!
+Then Item should contain text Nikon Nikon D3X(Scenario: User search Nikon cameras from https://www.amazon.com/)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError
+	at amazonTestFiles.cucumberJava.checkTheItemName(cucumberJava.java:67)
+	at ?.Then Item should contain text Nikon Nikon D3X(cucumberJava.feature:9)
+
+Scenario: User search Nikon cameras from https://www.amazon.com/  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError
+	at amazonTestFiles.cucumberJava.checkTheItemName(cucumberJava.java:67)
+	at ?.Then Item should contain text Nikon Nikon D3X(cucumberJava.feature:9)
+
