@@ -6,4 +6,4 @@ When User writes Nikon to search bar
 Then User sees Nikon cameras
 When User sorts results from highest price to lowest
 And Selects item number 2
-Then Item should contain text Nikon Nikon D3X
+Then Item should contain text Nikon D3X
