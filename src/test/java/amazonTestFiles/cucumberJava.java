@@ -57,8 +57,8 @@ public class cucumberJava {
 
     @And("^Selects item number (\\d+)$")
     public void selectItemNbr(int item) {
-        driverwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[" + Integer.toString(item) + "]")));
-        WebElement element = driver.findElement(By.xpath("//li[" + Integer.toString(item) + "]"));
+        driverwait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("html/body/div[1]/div[1]/div/div[3]/div[2]/div/div[4]/div[1]/div/ul/li[" + Integer.toString(item) + "]/div/div/div")));
+        WebElement element = driver.findElement(By.xpath("html/body/div[1]/div[1]/div/div[3]/div[2]/div/div[4]/div[1]/div/ul/li[" + Integer.toString(item) + "]/div/div/div"));
         itemInfo = element.getText();
     }
 
